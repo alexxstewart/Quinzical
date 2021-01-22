@@ -1,0 +1,75 @@
+#questionBoardTitle{
+	-fx-font: 50 arial;
+	-fx-text-fill: white;
+}
+
+#nzPane{
+	-fx-background-color: #2C2F33;
+	-fx-background-color: transparent;
+    -fx-background-image: url("nzMap.png");
+    -fx-background-size: 600 600;
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+#internationalPane{
+	-fx-background-color: #2C2F33;
+	-fx-background-color: transparent;
+    -fx-background-image: url("worldMap.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#practiceModuleButton{
+	-fx-background-color: red;
+	-fx-text-fill: white; 
+	-fx-border-radius: 0;
+}
+
+#practiceModuleButton:hover{
+	-fx-background-color: #808080;
+	-fx-text-fill: white;
+}
+
+#clickedCategoryButton{
+	-fx-background-image: url(tick.png); 
+    -fx-background-size: 100px 100px; 
+    -fx-background-repeat: no-repeat; 
+    -fx-background-position: center;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-radius: 0;
+}
+
+#onSecondClick{
+	-fx-background-image: none;
+	-fx-border-radius: 0;
+}
+
+#onSecondClick:hover{
+	-fx-background-color: white;
+}
+
+#button{
+	-fx-background-color: #808080;
+    -fx-cursor: hand;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+#button:hover{
+	-fx-background-color: #9c9c9c;
+}
+
+#questionButton{
+	-fx-background-color: #9c9c9c;
+		
+}
+
+#questionButton:hover{
+	-fx-background-color: #b8b8b8;
+}
